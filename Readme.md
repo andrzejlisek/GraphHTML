@@ -226,10 +226,10 @@ E variant: The same vertex can repeat in one cycle or path\. This algorithm can 
 If you select any vertex, there will be searched for all paths and cycles from the selected vertiex, otherwise, all vertices will be analyzed\. You will be asked for:
 
 
-* **Minimum vertices from 2 to x **\- The minimum number of vertices, which path or cycle can use, the **x** means the number of all vertices \(V only\)\.
-* **Maximum vertices from 2 to x **\- The maximum number of vertices, which path or cycle can use, the **x** means the number of all vertices \(V only\)\.
-* **Minimum edges from 1 to x **\- The minimum number of edges, which path or cycle can use, the **x** means the number of all edges \(E only\)\.
-* **Maximum edges from 1 to x **\- The maximum number of edges, which path or cycle can use, the **x** means the number of all edges \(E only\)\.
+* **Minimum vertices from 2 to x** \- The minimum number of vertices, which path or cycle can use, the **x** means the number of all vertices \(V only\)\.
+* **Maximum vertices from 2 to x** \- The maximum number of vertices, which path or cycle can use, the **x** means the number of all vertices \(V only\)\.
+* **Minimum edges from 1 to x** \- The minimum number of edges, which path or cycle can use, the **x** means the number of all edges \(E only\)\.
+* **Maximum edges from 1 to x** \- The maximum number of edges, which path or cycle can use, the **x** means the number of all edges \(E only\)\.
 * **Search from vertex?** \- This means search for paths from the current vertex to other vertices, otherwise, the paths will be generated from other vertices to the current vertex\. This does not affect to available paths\.
 * **Print paths?** \- Print all found paths to the textbox\.
 * **Print cycles?** \- Print all found cycles to the textbox\.
