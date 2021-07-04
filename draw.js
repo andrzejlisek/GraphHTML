@@ -140,7 +140,7 @@ function Init()
             MouseDown(MouseX(e), MouseY(e));
             CanvasObjectMouse = true;
         }
-    }
+    };
 
     CanvasObject.onmousemove = function(e)
     {
@@ -148,7 +148,7 @@ function Init()
         {
             MouseMove(MouseX(e), MouseY(e));
         }
-    }
+    };
 
     CanvasObject.onmouseup = function(e)
     {
@@ -157,7 +157,7 @@ function Init()
             MouseUp(MouseX(e), MouseY(e));
             CanvasObjectMouse = false;
         }
-    }
+    };
 }
 
 

@@ -148,7 +148,7 @@ function GraphThreadDef()
             }
             return;
         }
-    }
+    };
 
     function Prompt(Type, Message, Value, Dialog)
     {

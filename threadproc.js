@@ -47,6 +47,6 @@ var GraphThread = new Worker(URL.createObjectURL(new Blob(["("+GraphThreadDef.to
 GraphThread.onmessage = function(M)
 {
     ThreadCallback(M.data.Msg, M.data.Obj);
-}
+};
 ThreadSend("init");
 
